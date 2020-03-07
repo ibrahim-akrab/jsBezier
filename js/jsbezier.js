@@ -330,7 +330,7 @@
             tally = 0,
             curLoc = location,
             direction = distance > 0 ? 1 : -1,
-            cur = null;
+            cur = prev;
 
         while (tally < Math.abs(distance)) {
             curLoc += (0.005 * direction);
