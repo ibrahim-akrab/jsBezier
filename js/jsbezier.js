@@ -348,7 +348,7 @@
             tally = 0,
             curLoc = 0,
             direction = 1,
-            cur = null;
+            cur = prev;
 
         while (curLoc < 1) {
             curLoc += (0.005 * direction);
